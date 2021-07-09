@@ -34,7 +34,7 @@ class CardHolder(object):                         # В Python 2.X требует
     def setAcct(self, value):
         value = value.replace('-', '')
         if len(value) != self.acctlen:
-            raise TypeError('invalid acct number')# недопустимый номер счета
+            raise TypeError('invald acct number')# недопустимый номер счета
         else:
             self.__acct = value
     acct = property(getAcct, setAcct)
