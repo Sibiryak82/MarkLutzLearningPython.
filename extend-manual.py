@@ -1,5 +1,7 @@
 # Файл extend-manual.py
 
+# Расширение вручную - добавление новых методов в классы
+
 class Client1:
     def __init__(self, value):
         self.value = value
